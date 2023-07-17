@@ -1,0 +1,53 @@
+h1 {
+  color: inherit;
+  font-family: "Roboto Serif", serif;
+  font-size: 36px;
+  font-weight: 100;
+  text-align: left;
+  margin: auto;
+  padding: 20px 0 0;
+}
+img {
+  border-radius: 20px;
+  text-align: right;
+}
+ul {
+  margin: 0 0 20px;
+  padding: 10px;
+  list-style-type: none;
+  color: #70757a;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+}
+.weatherFrame {
+  border: 1px solid #dadde1;
+  border-radius: 5px;
+  padding: 30px;
+  margin: 30px auto;
+  max-width: 700px;
+}
+.temperature {
+  font-family: Google Sans, arial, sans-serif;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 1;
+  padding-left: 10px;
+}
+.temperature:hover {
+  cursor: pointer;
+}
+.cloudyIcon {
+  color: #202124;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 6px;
+  padding-left: 6px;
+  vertical-align: top;
+}
+.units {
+  position: relative;
+  top: -35px;
+  padding: 0;
+}
